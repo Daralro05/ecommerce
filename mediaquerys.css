@@ -1,0 +1,48 @@
+/*-----------------------------Resolucion 992px--------------------*/
+@media (max-width: 992px) {
+  .menu-label {
+    display: flex;
+    order: 1;
+    cursor: pointer;
+  }
+  .navbar__link {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    background-color: black;
+    border: 2px, solid, white;
+    border-radius: 0px 0px 15px 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+  }
+  #menu-toggle:checked ~ .navbar__link {
+    display: flex;
+  }
+  .Hero {
+    padding: 80px;
+  }
+  .Hero__info {
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+  }
+  .Hero__info p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .Hero__info h2 {
+    text-align: center;
+  }
+
+  .img {
+    display: none;
+  }
+}

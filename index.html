@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./mediaquerys.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <!--................................Header............................................-->
+    <header>
+      <img src="./Imagenes/Logo copia 3.png" alt="Logo" class="Logo" />
+
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label"
+          ><i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+        <ul class="navbar__link">
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Beneficios</a></li>
+          <li><a href="#contenedor">Productos</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+        <label for="cart-toggle" class="cart-label">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+      </nav>
+    </header>
+    <!--.................................Hero...............................................-->
+
+    <section class="Hero">
+      <div class="Hero__info">
+        <h1>ARDISCONS</h1>
+        <h2>Implementos para encofrar</h2>
+        <p>Todo lo que necesita tu Empresa para construir de forma segura</p>
+      </div>
+      <div class="img">
+        <img src="./Imagenes/Encofrados ,vigas,tripodes.jpg" alt="" />
+      </div>
+    </section>
+    <!--.................................Beneficios.........................................-->
+
+    <!---------------------------------------------------------------------------------------.-->
+    <!--.................................Productos..........................................--->
+    <section id="contenedor">
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Cabezal intermedio.jpg" alt="" />
+            <p>Cabezal Intermedio</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Material :</span> SAE 1020</p>
+            <p><span>Peso (kg):</span> 1,50</p>
+            <p><span>Galvanizado :</span> Caliente</p>
+          </div>
+        </div>
+
+        <div class="informacion">
+          <h3>Cabezal Intermedio</h3>
+          <p class="precio">US$ 21</p>
+          <button>comprar</button>
+        </div>
+      </div>
+      <!--...................................................................................................-->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Varilla Diwidag.jpg" alt="" />
+            <p>Barra Diwidag</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Material :</span> SAE 1020</p>
+            <p><span>Terminación :</span> Galvanizado</p>
+            <p><span>Diámetro Barras (mm) :</span> 15</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Barra Diwidag</h3>
+          <p class="precio">US$ 10</p>
+          <button>comprar</button>
+        </div>
+      </div>
+
+      <!----------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/cabezal de vigas.jpg" alt="" />
+            <p>Cabezal Fijo</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Material :</span>SAE 1020</p>
+            <p><span>Peso (kg) :</span> 3,20</p>
+            <p><span>Galvanizado :</span>Caliente</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Cabezal Fijo</h3>
+          <p class="precio">US$ 29</p>
+          <button>comprar</button>
+        </div>
+      </div>
+      <!---------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Cabezal Fondo de Viga.jpg" alt="" />
+            <p>Cabezal Fondo de Viga</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Material :</span>SAE 1020</p>
+            <p><span>Peso (kg) :</span> 3,20</p>
+            <p><span>Galvanizado :</span>Caliente</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Cabezal Fondo de viga</h3>
+          <p class="precio">US$ 46</p>
+          <button>comprar</button>
+        </div>
+      </div>
+
+      <!---------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Trípode Universal.jpg" alt="" />
+            <p>Trípode Universal</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p>
+              <span>Info :</span>Simplifica el montaje de sistema de encofrado
+              H20.Es utilizado tanto para el montaje como para el desencofrado
+              de la losa.
+            </p>
+            <p><span>Material :</span>SAE 1020</p>
+            <p><span>Peso (kg) :</span> 10</p>
+            <p><span>Galvanizado :</span>Caliente</p>
+          </div>
+        </div>
+
+        <div class="informacion">
+          <h3>Trípode Universal</h3>
+          <p class="precio">US$ 46</p>
+          <button>comprar</button>
+        </div>
+      </div>
+      <!----------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Fenólicos.jpg" alt="" />
+            <p>Fenólicos Laminados</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Ancho mts :</span> 1,22</p>
+            <p><span>Largo mts :</span> 2,44</p>
+            <p><span>espesor (mm) :</span> 18</p>
+            <p><span>Terminación :</span> Laminado</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Fenólicos</h3>
+          <p class="precio">US$ 113</p>
+          <button>comprar</button>
+        </div>
+      </div>
+      <!------------------------------------------------------------------------------------------------------>
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Puntales.jpg" alt="" />
+            <p>Puntales</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Largo Cerrado (mt) :</span> 1,70</p>
+            <p><span>Largo Extendido (mt) :</span> 3,00</p>
+            <p><span>Caño Interno (mm) :</span> 63 x 2,5</p>
+            <p><span>Caño Externo (mm) :</span> 76 x 2,2</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Puntales</h3>
+          <p class="precio">US$ 131</p>
+          <button>comprar</button>
+        </div>
+      </div>
+      <!---------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Tuercas Planas.jpg" alt="" />
+            <p>Tuercas</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p><span>Material :</span> Fundición</p>
+            <p><span>Peso(kg) :</span> 0,70</p>
+            <p><span>Terminación :</span> Galvanizado</p>
+            <p><span>Diámetro de Barras(mm) :</span> 15</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Tuercas planas</h3>
+          <p class="precio">US$ 6</p>
+          <button>comprar</button>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------------------>
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Vigas H20.jpg" alt="" />
+            <p>Vigas HT20- 1,80mts</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p>
+              <span>Madera :</span> abeto seleccionado clase S10,madera maciza
+              con unión por espiga acuñada (bisel 4mm)
+            </p>
+            <p><span>Peso :</span> 4,6kg/m</p>
+            <p><span>Altura :</span> 20mm</p>
+            <p><span>Ancho :</span> 80mm</p>
+            <p><span>Largo :</span> 1,80mts</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Vigas HT20</h3>
+          <p class="precio">US$ 43</p>
+          <button>comprar</button>
+        </div>
+      </div>
+
+      <!----------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Vigas H20.jpg" alt="" />
+            <p>Vigas HT20- 2,90mts</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p>
+              <span>Madera :</span> abeto seleccionado clase S10,madera maciza
+              con unión por espiga acuñada (bisel 4mm)
+            </p>
+            <p><span>Peso :</span> 4,6kg/m</p>
+            <p><span>Altura :</span> 20mm</p>
+            <p><span>Ancho :</span> 80mm</p>
+            <p><span>Largo :</span> 2,90mts</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Vigas HT20</h3>
+          <p class="precio">US$ 69</p>
+          <button>comprar</button>
+        </div>
+      </div>
+
+      <!----------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Vigas H20.jpg" alt="" />
+            <p>Vigas HT20- 3,60mts</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p>
+              <span>Madera :</span> abeto seleccionado clase S10,madera maciza
+              con unión por espiga acuñada (bisel 4mm)
+            </p>
+            <p><span>Peso :</span> 4,6kg/m</p>
+            <p><span>Altura :</span> 20mm</p>
+            <p><span>Ancho :</span> 80mm</p>
+            <p><span>Largo :</span> 3,60mts</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Vigas HT20</h3>
+          <p class="precio">US$ 86</p>
+          <button>comprar</button>
+        </div>
+      </div>
+
+      <!----------------------------------------------------------------------------------------------------------->
+      <div class="card" onclick="flipCard()">
+        <div class="card-inner">
+          <div class="card-front">
+            <!-- Contenido frontal de la tarjeta -->
+            <img src="./Imagenes/Poste Baranda.jpg" alt="" />
+            <p>Barandas de seguridad</p>
+          </div>
+          <div class="card-back">
+            <!-- Contenido posterior de la tarjeta -->
+            <p>
+              <span>Info :</span>Para el armado de baranda de contención,
+              construído en perfilería estructural de acero y pintado.Permite
+              alojar 2 tablas de 1" x5" para materializar la baranda de
+              contención.
+            </p>
+            <p><span>Altura mm :</span> 1200</p>
+          </div>
+        </div>
+        <div class="informacion">
+          <h3>Barandas de seguridad</h3>
+          <p class="precio">US$ 44</p>
+          <button>comprar</button>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------>
+    <script src="script.js"></script>
+  </body>
+</html>
